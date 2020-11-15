@@ -9,6 +9,7 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
+        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
         <article>{{content}}</<article>
       </li>
     {% endfor %}
