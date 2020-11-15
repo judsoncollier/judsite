@@ -3,10 +3,26 @@
 
 @charset "utf-8";
 
+ @font-face {
+    font-family: 'NeueReg';
+      src: url(../assets/reg/font.woff) format(woff);
+      src: url(../assets/reg/font.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'NeueBold';
+    src: url(../assets/bold/font.woff) format(woff);
+    src: url(../assets/bold/font.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+ }
+
 
 
 // Our variables
-$base-font-family: "NeueReg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "NeueReg",serif;
 $base-font-size:   16px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
