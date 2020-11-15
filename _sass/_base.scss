@@ -14,18 +14,22 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
  @font-face {
-     font-family: 'NeueHaas-Reg';
-     src: url(../assets/reg/font.woff) format(woff);
-     font-weight:300;
+    font-family: 'NeueReg';
+      src: url(../assets/reg/font.woff) format(woff);
+      src: url(../assets/reg/font.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
  }
 
  @font-face {
-     font-family: 'NeueHaas';
-     src: url(../assets/bold/font.woff) format(woff);
-     font-weight:500;
+    font-family: 'NeueBold';
+    src: url(../assets/bold/font.woff) format(woff);
+    src: url(../assets/bold/font.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
  }
-
 
 
 body {
@@ -102,7 +106,9 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+  font-family: NeueBold;
+  font-weight: normal;
+  font-style: normal;
 }
 
 
