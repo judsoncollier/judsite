@@ -5,19 +5,15 @@
 
  @font-face {
     font-family: 'NeueReg';
-      src: url(http://judsoncollier.siteleaf.net/assets/reg/font.woff) format(woff);
-    font-weight: normal;
-    font-style: normal;
+    src: url(http://judsoncollier.siteleaf.net/assets/reg/font.woff) format(woff)
  }
 
  @font-face {
     font-family: 'NeueBold';
-    src: url(../assets/bold/font.woff) format(woff);
+    src: url(http://judsoncollier.siteleaf.net/assets/reg/font.woff) format(woff);
     font-weight: normal;
     font-style: normal;
  }
-
-
 
 // Our variables
 $base-font-family: 'NeueReg',serif;
