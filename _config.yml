@@ -2,6 +2,9 @@
 title: Judson Collier
 timezone: UTC
 collections:
+  archive:
+    title: Archive
+    output: true
   posts:
     title: Posts
     output: true
