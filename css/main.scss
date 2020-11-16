@@ -62,3 +62,10 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+
+article.post h2 {
+  display: block;
+  padding:0 0 5px 0;
+  border-bottom: 2px solid #000;
+}
